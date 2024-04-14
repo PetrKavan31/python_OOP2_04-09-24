@@ -32,7 +32,6 @@ class Shape:
             pickle.dump(self, file)
 
     @staticmethod
-    # cls???
     def load(filename):
         with open(filename, "rb") as file:
             return pickle.load(file)
