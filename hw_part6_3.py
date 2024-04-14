@@ -24,7 +24,7 @@ class Shape:
     def __init__(self):
         pass
 
-    def show(self):
+    def show_shape(self):
         pass
 
     def save(self, filename):
@@ -36,4 +36,51 @@ class Shape:
     def load(filename):
         with open(filename, "rb") as file:
             return pickle.load(file)
+
+
+class Square(Shape):
+    def __init__(self, x, y, side_length):
+        super().__init__()
+        self.x = x
+        self.y = y
+        self.side_length = side_length
+
+    def show_shape(self):
+        return f"Square: Upper left corner: x = {self.x}, y = {self.y}, side length = {self.side_length}"
+
+
+class Rectangle(Shape):
+    def __init__(self, x, y, side_a, side_b):
+        super().__init__()
+        self.x = x
+        self.y = y
+        self.side_a = side_a
+        self.side_b = side_b
+
+    def show_shape(self):
+        return f"Rectangle: Upper left corner: x = {self.x}, y = {self.y}, side a = {self.side_a}, side b = {self.side_b}"
+
+
+class Circle(Shape):
+    def __init__(self, x, y, radius):
+        super().__init__()
+        self.x = x
+        self.y = y
+        self.radius = radius
+
+    def show_shape(self):
+        return f"Circle: Center at: x = {self.x}, y = {self.y}, radius: {self.radius}"
+
+
+class Ellipse(Shape):
+    def __init__(self, x, y, width, height):
+        super().__init__()
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+
+    def show_shape(self):
+        return f"Top corner: x = {self.x}, y = {self.y}, width: {self.width}, height: {self.height}"
+
 
