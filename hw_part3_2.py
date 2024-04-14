@@ -1,3 +1,10 @@
+# Create a class to convert temperature from Celsius to
+# Fahrenheit, and vice versa. The class must have two static
+# methods: to convert from Celsius to Fahrenheit and from
+# Fahrenheit to Celsius. The class should also count how many
+# times the temperature was calculated and return this value
+# using a static method.
+
 class TemperatureConversion:
     conversion_counter = 0
 
@@ -21,5 +28,5 @@ print(TemperatureConversion.celsius_to_fahrenheit(100))
 print(TemperatureConversion.fahrenheit_to_celsius(212))
 print(TemperatureConversion.fahrenheit_to_celsius(100))
 print()
-print(TemperatureConversion.get_conversion_count())
+print(f"Number of conversions: {TemperatureConversion.get_conversion_count()}")
 
