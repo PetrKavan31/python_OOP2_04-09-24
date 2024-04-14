@@ -17,3 +17,23 @@
 # Create a list of shapes, save the shapes to a file, load into
 # another list, and display information about each shape.
 
+import pickle
+
+
+class Shape:
+    def __init__(self):
+        pass
+
+    def show(self):
+        pass
+
+    def save(self, filename):
+        with open(filename, "rb") as file:
+            pickle.dump(self, file)
+
+    @staticmethod
+    # cls???
+    def load(filename):
+        with open(filename, "rb") as file:
+            return pickle.load(file)
+

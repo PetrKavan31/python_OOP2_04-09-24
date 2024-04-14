@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870f021d-e7f9-4224-ba26-2954af3d5577" name="Changes" comment="HW 1 - draft">
-      <change afterPath="$PROJECT_DIR$/hw_part6_3.py" afterDir="false" />
+    <list default="true" id="870f021d-e7f9-4224-ba26-2954af3d5577" name="Changes" comment="add new file - HW_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_part3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_part3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_part6_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_part6_3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713024923039</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new file - HW_2">
+      <option name="closed" value="true" />
+      <created>1713101233733</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713101233733</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +119,7 @@
     <MESSAGE value="add magic" />
     <MESSAGE value="share on Github" />
     <MESSAGE value="HW 1 - draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 1 - draft" />
+    <MESSAGE value="add new file - HW_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new file - HW_2" />
   </component>
 </project>
