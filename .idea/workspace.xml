@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="870f021d-e7f9-4224-ba26-2954af3d5577" name="Changes" comment="create class">
+    <list default="true" id="870f021d-e7f9-4224-ba26-2954af3d5577" name="Changes" comment="create class of Shapes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_part6_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_part6_3.py" afterDir="false" />
     </list>
@@ -32,18 +32,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.hw_part3_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.magic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.hw_part3_2.executor": "Run",
+    "Python.hw_part6_3.executor": "Run",
+    "Python.magic.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713105728336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create class of Shapes">
+      <option name="closed" value="true" />
+      <created>1713112676397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713112676397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +138,7 @@
     <MESSAGE value="HW 1 - draft" />
     <MESSAGE value="add new file - HW_2" />
     <MESSAGE value="create class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create class" />
+    <MESSAGE value="create class of Shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="create class of Shapes" />
   </component>
 </project>
